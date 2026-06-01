@@ -1,4 +1,6 @@
-# Telecom-Churn-Data
+# Project Summary
+Developed an end-to-end Customer Churn Analysis Dashboard using Power BI to identify customer attrition trends and support retention strategies. Performed data analysis, created DAX measures, designed KPI dashboards, and generated actionable business insights from telecom customer data.
+## Telecom-Churn-Data
 This project analyzes customer churn patterns using Power BI. The objective is to identify customer retention trends, calculate churn metrics, and generate business insights that help reduce customer attrition.
 - Developed an interactive Power BI dashboard to analyze telecom customer churn trends.
 - Created DAX measures for Total Customers, Churned Customers, Churn Rate, and Retention Rate.
@@ -83,4 +85,4 @@ Total Churned Customers =CALCULATE(COUNTROWS('churn-bigml-20'),'churn-bigml-20'[
 Total Customers =
 COUNTROWS('churn-bigml-20')
 
-### Total Churned Customers
+
